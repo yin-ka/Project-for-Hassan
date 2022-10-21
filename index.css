@@ -1,83 +1,56 @@
 body{
-    width:100%;
-    height: 100%;
-    background-color: midnightblue;
+width: 100%;
+height: 100%;
+background-color: rgba(4, 4, 93, 0.886);
+padding: 12px 120px 12px 12px;
+margin: 0;
+color: #f5f6f7;
+font-family: Tahoma;
+font-size: 16px;
 }
 
-#div1{
-    color: white;
-    font-style: normal;
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
-    position: absolute;
-    top: 80px;
-    right: 500px;  
-    margin: 0px;
-    padding: 0px;
+form{
+min-width: 400px;
+margin: 0 auto;
+padding-bottom: 2em;  
 }
 
-#div2{
-    color: white;
-    font-style: normal;
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
-    position: absolute;
-    top: 100px;
-    right: 550px;
-    margin: 30px;
-    padding: 0px;
-}
-
-#div3{
+h1,p{
+    text-align: center;
+    margin: 50px;
     
-    position: absolute;
-    top: 180px;
-    right: 550px;
-    margin: 0px;
-    border: 0px;
-    padding: 1px;
-    background-color: midnightblue;
 }
-    
+
+
 #info{
-    border-radius: 25px;
-    border: 2px solid white;
-    width: 200px;
+    width: 150px;
     height: 15px;
+    border-radius: 25px;
     background-color: transparent;
-}
-
-#div4{
-    position: absolute;
-    top: 230px;
-    right: 550px;
-    margin: 0px;
-    border: 0px;
-    padding: 1px;
-    background-color: midnightblue;
+    border-color: black;
+    border-style: solid;
+    display: block;
+    margin : 0 auto;
 }
 
 #info2{
-    border-radius: 25px;
-    border: 2px solid white;
-    width: 200px;
+    width: 150px;
     height: 15px;
+    border-radius: 25px;
     background-color: transparent;
-}
-
-#div5{
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-    float: center;
-    bottom: 250px;
-    right: 550px;
-    margin: 0px;
-    border: 0px;
-    padding: 1px;
-    background-color: midnightblue;
+    border-color: black;
+    border-style: solid;
+    display: block;
+    margin : 0 auto;
 }
 
 #info3{
-    background-color: white;
+    width: 150px;
+    height: 15px;
+    border-radius: 25px;
+    border-style: solid;
+    display: block;
+    margin : 0 auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
 }
